@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.popup-container {
+  margin: 15px;
+  width: 300%;
+  margin-left: 100px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+
+  margin-left: 500px;
+}
+.close-icon {
+  margin-bottom: 15px;
+}
+
+.close-btn {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+}
