@@ -1,8 +1,9 @@
 /* Write your CSS here */
 .popup-container {
   margin: 15px;
-  width: 300%;
+  width: 250px;
   margin-left: 100px;
+  border: 2px solid red;
 }
 
 .video-container {
