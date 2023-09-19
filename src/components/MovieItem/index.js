@@ -9,14 +9,7 @@ const MovieItem = props => {
   console.log('list = ', movie)
   return (
     <div className="popup-container">
-      <Popup
-        modal
-        trigger={
-          <button type="button">
-            <img src={movie.thumbnailUrl} alt="thumbnail" />
-          </button>
-        }
-      >
+      <Popup modal trigger={<img src={movie.thumbnailUrl} alt="thumbnail" />}>
         {close => (
           <div className="video-container">
             <button
